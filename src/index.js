@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './Containers/App';
 import reportWebVitals from './reportWebVitals';
-
+import 'tachyons';
+ //{} used for destructuring because robots didnt export using default mutiple objects can be exported;
+ 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
